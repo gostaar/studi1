@@ -1,0 +1,158 @@
+ <!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+    <!--css-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+</head>
+<body>
+
+    <!--header-->
+  <header class="container-fluid header">
+
+    <div class="container">
+      <a href="#" class="logo">Mon portfolio</a>
+      <nav class="menu">
+        <a href="#">Acceuil</a>
+        <a href="#about">A propos</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+    
+  </header>
+  <!--end header-->
+
+  <!--bannière-->
+  <section class="container-fluid banner">
+
+    <div class="ban">
+      <img src="img/ban.jpg" alt="bannière du site">
+    </div>
+      
+    <div class="inner-banner ">
+      <h1>Bienvenue sur mon portfolio</h1>
+      <a href="#contact"><button class="btn btn-custom"> Contactez-moi! </button></a>
+    </div>
+
+  </section>
+  <!--end bannière-->
+
+  <!--à propos-->
+  <section class="container-fluid about">
+    <div class="container">
+      <div class="row">
+        <h2 id="about"> A propos de moi </h2>
+        <hr class="separator">
+        <article class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
+          <h2> Études </h2>
+          <ul>
+              <li>2011 - CESS en gestion hotellière - Institut Notre Dame de Fleurus</li>
+              <li>2012 - formation en secrétariat - FOREM</li>
+              <li>2022 - en cours de formation Développeuse full-stack - Studi</li>
+            </ul>
+          </p>
+        </article>
+        <article class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
+          <h2> Expérience </h2>
+            <ul>
+              <li>2012 - Secrétaire juridique - BDS Avocat à Wépion</li>
+              <li>2013 - Agent d'acceuil - SNCB </li>
+              <li>2014 - 2019 - Gérante d'une TPME - SOS Tondeuses</li>
+              <li>2020 - Plusieurs CDD en Corse - Leclerc, CPAM, ADMR</li>
+            </ul>
+        </article>
+        <article class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
+          <h2> Hobbies </h2>
+          <ul>
+            <li>Marche</li>
+            <li>Lecture</li>
+            <li>Artisanat</li>
+            <li>Internet</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+  <!--end à propos-->
+
+  <!--portfolio-->
+  <section class="container-fluid portfolio">
+    <div class="container">
+      <h2 id="portfolio"> Mon portfolio </h2>
+      <hr class="separator">
+          
+      <div class="container1">
+        <div class="row" style=  "background-color:#3498DB ;">
+              <div class="col-md-3 col-lg-3 col-xs-12 col-sm-6 ">
+                <img src="img/p1.png" alt="bootstrap" class="block1">
+              </div>
+              <div class="col-md-3 col-lg-3 col-xs-12 col-sm-6 ">
+                <img src="img/p2.png" alt="js" class="block2">
+              </div>
+                        <div class="col-md-3 col-lg-3 col-xs-12 col-sm-6 ">
+                <img src="img/p3.png" alt="html" class="block3">
+              </div>
+              <div class="col-md-3 col-lg-3 col-xs-12 col-sm-6 ">
+                <img src="img/p4.png" alt="angular" class="block4">
+              </div>
+              <div class="col-md-3 col-lg-3 col-xs-12 col-sm-6 ">
+                <img src="img/p5.png" alt="php" class="block5">
+              </div>
+              <div class="col-md-3 col-lg-3 col-xs-12 col-sm-6">
+                <img src="img/p6.png" alt="mysql" class="block6">
+              </div>
+              <div class="col-md-3 col-lg-3 col-xs-12 col-sm-6">
+                <img src="img/p7.png" alt="nodejs" class="block7">
+              </div>
+              <div class="col-md-3 col-lg-3 col-xs-12 col-sm-6">
+                <img src="img/p8.png" alt="python" class="block8">
+              </div>
+          </div>
+      </div>
+          
+    </div>
+  </section>
+  <!--end portfolio-->
+
+  <!-- footer / contact -->
+  <footer class="container-fluid footer">
+    <div class="container">
+      <div class="row">
+        <h2 id="contact"> Contactez-moi !</h2>
+        <hr class="separator">
+        <div class="span6">
+          <form class="formulaireContact">
+            <div class="controls controls-row">
+              <input id="name" name="name" type="text" class="span3" placeholder="Name">
+              <input id="email" name="email" type="email" class="span3" placeholder="Email address">
+            </div>
+            <div class="controls">
+              <textarea id="message" name="message" class="span6" placeholder="Your Message" rows="5"></textarea>
+            </div>
+
+            <div class="controls">
+              <button id="contact-submit" type="submit" class="btn btn-custom input-medium pull-right">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <p>
+        Copyright (c) 2022 Copyright Holder All Rights Reserved.
+      </p>
+    </div>
+  </footer>
+  <!--end footer/contact-->
+</body>
+</html>
